@@ -1,0 +1,26 @@
+# Dependencias de Composer (conservar composer.json y composer.lock)
+/vendor/
+
+# Variables de entorno y configuracion local de base de datos
+.env
+.env.*
+!.env.example
+!.env.*.example
+/config/database.php
+
+# Archivos subidos por los usuarios
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/.htaccess
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.cache
+
+# Configuracion local de editores y del sistema
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
